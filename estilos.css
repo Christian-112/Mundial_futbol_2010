@@ -1,10 +1,36 @@
 /* naveagcion */
 body{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 /* seccion: Historia */
+.titulo-seccion{
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    margin-bottom: 40px;
+}
+.tarjeta-beneficios{
+    background-color:#ffffff;
+    border: 1px solid #7f7e7e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.la-historia{
+    background-color: #ffffff;
+    font-family: "Aptos", sans-serif;
+    color: rgb(112, 109, 109);
+    padding: 20px;
+    margin-left: 0%;
+}
+.tarjeta-beneficios:hover{
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+}
 
+    
 /* seccion: sedes-estadios */
 
 /* seccion: figuras-premios */

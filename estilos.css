@@ -12,3 +12,54 @@ body{
 /*  seccion: cultura-curiosidades */
 
 /* Resultados Finales y Footer */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+:is(th,td){
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.encabezado-tabla{
+    background-color:#639459;
+    text-align: left;
+    font-family: 'Courier New', Courier, Impact;
+    color: white;
+}
+
+table .fila1{
+    background-color: rgb(102, 148, 88);
+}
+
+
+table .td{
+    background-color: #fdda13;
+}
+
+table .td2{
+    background-color: #007A33;
+}
+
+table .td3{
+    background-color: rgb(219, 165, 66);
+}
+
+table .td4{
+    background-color: #E03C31;
+}
+
+table .td5{
+    background-color: #c9ca76;
+}
+
+table .td6{
+    background-color: #81c540;
+}
+
+table .td7{
+    background-color: #e9a04d;
+}

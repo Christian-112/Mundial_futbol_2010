@@ -1,6 +1,6 @@
 /* naveagcion */
 body{
-    background-color: rgb(246, 246, 250);
+    background-color: rgb(86, 86, 183);
 }
 
 /* seccion: Historia */
@@ -9,7 +9,26 @@ body{
 
 /* seccion: figuras-premios */
 h2.figuras{
-    color: #007A33;
+    color: #ea8e0e;
+    text-align: center;
+}
+div.figuras{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: rgb(2, 19, 2);
+    background-color: #f6e8e8;
+}
+div.premio{
+    width: 22%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
     text-align: center;
 }
 

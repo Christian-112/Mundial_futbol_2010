@@ -1,6 +1,6 @@
 /* naveagcion */
 body{
-    background-color: blue;
+    background-color: rgb(246, 246, 250);
 }
 
 /* seccion: Historia */
@@ -8,6 +8,10 @@ body{
 /* seccion: sedes-estadios */
 
 /* seccion: figuras-premios */
+h2.figuras{
+    color: #007A33;
+    text-align: center;
+}
 
 /*  seccion: cultura-curiosidades */
 

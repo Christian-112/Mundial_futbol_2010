@@ -1,11 +1,35 @@
 /* naveagcion */
 body{
-    background-color: blue;
+    background-color: rgb(252, 252, 255);
 }
 
 /* seccion: Historia */
 
 /* seccion: sedes-estadios */
+h2.estadios{
+text-align: center;
+color: #007A33;
+}
+h4.box{
+    color:#007A33;
+    height: 80px;
+
+}
+.contenedor-es{
+    background-color: #007A33;
+    height: 100%;
+    width: 100%;
+}
+.contenstadios .box{
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    margin-top: 0 auto;
+    display: inline-block;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 /* seccion: figuras-premios */
 

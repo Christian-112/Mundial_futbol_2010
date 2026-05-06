@@ -9,6 +9,30 @@ body{
 
 /* seccion: figuras-premios */
 
-/*  seccion: cultura-curiosidades */
+/*  seccion: cultura-curiosidades */ 
 
+
+.contenedor-principal-sitios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center; 
+    gap: 25px;
+    padding: 20px;
+    max-width: 1250px;
+    margin: 50px auto ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-curso{
+    width: 380px;
+    background:rgba(219, 198, 7, 0.893);
+    border:1px solid rgb(1, 0, 0);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px #007a33 ;
+}
+img{
+    height: 500px;
+    }
+
+    
 /* Resultados Finales y Footer */

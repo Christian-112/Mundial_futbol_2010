@@ -12,11 +12,11 @@ body{
     background-color: rgb(4, 8, 8);
 
 }
-h2.figuras{
+.figuras{
     color: #ea8e0e;
     text-align: center;
 }
-div.figuras{
+.figuras{  
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -27,14 +27,14 @@ div.figuras{
     width: 100%;
     padding: 20px;
 }
-div.premio{
+.premio{
     width: 22%;
     background-color: #f0f0f0;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     text-align: center;
     height: 400px;
     width: 340px;

@@ -1,6 +1,6 @@
 /* naveagcion */
 body{
-    background-color: rgb(86, 86, 183);
+    background-color:blue;
 }
 
 /* seccion: Historia */
@@ -8,6 +8,10 @@ body{
 /* seccion: sedes-estadios */
 
 /* seccion: figuras-premios */
+#figuras-premios{
+    background-color: rgb(4, 8, 8);
+
+}
 h2.figuras{
     color: #ea8e0e;
     text-align: center;
@@ -16,10 +20,12 @@ div.figuras{
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-around 15px;
     margin-top: 20px;
     color: rgb(2, 19, 2);
     background-color: #f6e8e8;
+    width: 100%;
+    padding: 20px;
 }
 div.premio{
     width: 22%;
@@ -30,6 +36,15 @@ div.premio{
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    height: 400px;
+    width: 340px;
+    align-items: center;
+    margin-top: 0 auto;
+}
+img{
+    height: 40%;
+    width: 50%;
+    border-radius: 20px;
 }
 
 /*  seccion: cultura-curiosidades */

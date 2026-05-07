@@ -134,7 +134,7 @@ table .td7{
     box-shadow: 0 15px 25px rgb(77, 74, 74);
 }
 
-.Desarrolladores {
+#Desarrolladores {
     text-align: center;
     font-size: 3rem;
     color:rgb(188, 194, 138);
@@ -164,6 +164,13 @@ table .td7{
     object-fit: cover;
     display: block;
     margin: auto;
+}
+
+.Nombres{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contenedorinte .caja1 img{

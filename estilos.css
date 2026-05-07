@@ -27,7 +27,7 @@ body{
 }
 .card-curso{
     width: 380px;
-    background:rgba(219, 198, 7, 0.893);
+    background: #fd913f
     border:1px solid rgb(1, 0, 0);
     border-radius: 15px;
     overflow: hidden;
@@ -59,6 +59,12 @@ body{
 
 }
 
+.cuadro-letras{
+ background-color: green; 
+ 
+
+
+}
     
 
 

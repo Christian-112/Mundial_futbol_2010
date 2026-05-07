@@ -1,34 +1,59 @@
 /* naveagcion */
 body{
-    background-color: rgb(252, 252, 255);
+    background-color: blue;
 }
 
 /* seccion: Historia */
 
 /* seccion: sedes-estadios */
-h2.estadios{
+#sedes-estadios{
+    background-color:white;
+}
+.estadios{
 text-align: center;
 color: #007A33;
 }
-h4.box{
-    color:#007A33;
-    height: 80px;
 
-}
 .contenedor-es{
-    background-color: #007A33;
+    background-color: #b3ddc500;
     height: 100%;
     width: 100%;
 }
-.contenstadios .box{
-    background-color: aquamarine;
-    height: auto;
-    width: auto;
-    margin-top: 0 auto;
+.contenedor-es .box{
     display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #a4e6c0;
+    background-color: rgb(42, 67, 89);
+    font-size: 10px;
+    height: 50%;
+    width: 20%;
+    padding: 20px;
+    margin-top: 0 auto;
     border-radius: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    font-size: 10px;
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+      
 }
+.box{
+    align-items: center;
+    text-align: center;
+    color: #a4e6c0;
+    background-color: aliceblue;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+
+
+
+
 
 
 /* seccion: figuras-premios */

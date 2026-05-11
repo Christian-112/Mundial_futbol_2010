@@ -164,6 +164,47 @@ color: #007A33;
 
 
 /* seccion: figuras-premios */
+#figuras-premios{
+    background-color: rgb(4, 8, 8);
+
+}
+.figuras{
+    color: #ea8e0e;
+    text-align: center;
+}
+.figuras{  
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-around 15px;
+    margin-top: 20px;
+    color: rgb(2, 19, 2);
+    background-color: #f6e8e8;
+    width: 100%;
+    padding: 20px;
+}
+.premio{
+    width: 22%;
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 400px;
+    width: 340px;
+    align-items: center;
+    margin-top: 0 auto;
+}
+img.mundial {
+    height: 40%;
+    width: 50%;
+    border-radius: 20px;
+}
+h3.copa{
+    color: #007A33;
+}
 
 /*  seccion: cultura-curiosidades */
 
